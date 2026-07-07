@@ -75,7 +75,7 @@ Passwords are securely hashed using bcrypt before being stored in the database.
 
 ### 1. Clone the Repository
 
-git clone YOUR_REPOSITORY_URL
+ git clone https://github.com/lxmaaai-ux/Student-Registration-Portal.git
 
 ### 2. Install Backend Dependencies
 

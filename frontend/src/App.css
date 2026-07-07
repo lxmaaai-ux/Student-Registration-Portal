@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  width: 400px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input,
+select{
+
+    width:100%;
+
+    padding:18px 20px;
+
+    margin:14px 0;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:18px;
+
+    background:rgba(255,255,255,0.08);
+
+    color:white;
+
+    font-size:17px;
+
+    box-sizing:border-box;
+
+    transition:.3s;
+
+}
+
+input:focus,
+select:focus{
+
+    border:2px solid #4facfe;
+
+    box-shadow:0 0 15px rgba(79,172,254,.35);
+
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+/* ===========================
+   Admin Dashboard Cards
+=========================== */
+
+.stats{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin-top:25px;
+}
+
+.stat-card{
+    background:rgba(255,255,255,0.08);
+    border-radius:20px;
+    padding:25px;
+    min-height:180px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    transition:.3s;
+}
+
+.stat-card:hover{
+
+    transform:translateY(-6px);
+
+}
+
+.stat-card h3{
+
+    margin-bottom:15px;
+
+    font-size:1.3rem;
+
+}
+
+.stat-card p{
+
+    font-size:2rem;
+
+    font-weight:bold;
+
+}
+
+.role-text{
+
+    font-size:1.5rem !important;
+
+    word-break:break-word;
+
+    line-height:1.2;
+
+}
